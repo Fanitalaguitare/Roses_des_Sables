@@ -4,6 +4,7 @@ body {
     height: auto;
     padding: 0;
     background: #FBE5E5;
+    font-family: 'Mukta', sans-serif;
 }
 
 .logo {
@@ -18,7 +19,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .item {
     margin: 50px;
@@ -29,6 +29,7 @@ body {
     padding-top: 80px;
     border-radius: 40px;
     color: white;
+    box-shadow: 5px 4px 10px 4px rgba(0,0,0,0.7);
 }
 
 
@@ -55,18 +56,27 @@ ul li {
 .container a, .navlink {
     text-decoration: none;
     color: white;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1em;
+}
+
+.container a {
+    font-size: 1.5em
 }
 
 nav {
     color: white;
     font-size:  0.8em;
+    font-family: 'ABeeZee', sans-serif;
     
 }
 
 .charlies a {
-    font-size: 1.9em;
+    font-size: 3em;
     text-decoration: none;
     color: white;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
 }
 
 footer {
